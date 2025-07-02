@@ -1,0 +1,21 @@
+{
+  "name": "backenddev",
+  "version": "1.0.0",
+  "description": "this Dev Tinder Application",
+  "keywords": [
+    "node",
+    "express",
+    "mongo"
+  ],
+  "license": "ISC",
+  "author": "Siva Goram",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js" 
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
